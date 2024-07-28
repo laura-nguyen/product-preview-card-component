@@ -35,7 +35,7 @@ function App() {
           <span className="font-fraunces text-3xl text-dark-cyan">$149.99</span>
           <span className="text-dark-grayish-blue line-through">$169.99</span>
         </section>
-        <button className="bg-dark-cyan rounded-lg flex justify-center items-center gap-4 text-white p-4 font-semibold">
+        <button className="bg-dark-cyan rounded-lg flex justify-center items-center gap-4 text-white p-4 font-semibold hover:bg-very-dark-blue focus:bg-very-dark-blue">
           <img src={cartIcon} alt="cart icon" />
           Add to Cart
         </button>
