@@ -5,7 +5,7 @@ import "./App.css";
 
 function App() {
   return (
-    <main className="flex max-w-2xl mx-4 my-8 md:mx-auto flex-col md:flex-row bg-white rounded-2xl min-h-10 overflow-hidden">
+    <main className="flex max-w-96 md:max-w-2xl mx-4 my-8 md:mx-auto flex-col md:flex-row bg-white rounded-2xl min-h-10 overflow-hidden">
       <section className="object-center">
         <img
           className="hidden md:block object-cover"
